@@ -7,9 +7,9 @@
 
 *I have always liked Drupal, I find the structure very clear and understandable and the code very readable.*
 
-You may refer to [Quick Start](Docs/DrupalQuickStart.md) for a description of the steps described there, which I modified, to perform a Quick Start.  The full Drupal Quick Start page is: [Drupal Quick Start Command](https://www.drupal.org/docs/installing-drupal/drupal-quick-start-command), where we are told: `Important: the quick-start command is intended only for launching a local demo version of Drupal. If you need to install Drupal for production use, see instructions in the rest of this guide.`
+You may refer to [Quick Start](Docs/DrupalQuickStart.md) for a description of the steps described there, which I modified, to perform a Drupal Quick Start.  The full Drupal Quick Start page is: [Drupal Quick Start Command](https://www.drupal.org/docs/installing-drupal/drupal-quick-start-command), where we are told: `Important: the quick-start command is intended only for launching a local demo version of Drupal. If you need to install Drupal for production use, see instructions in the rest of this guide.`
 
-The procedure that I followed for creating this project and repository can be found in: [SetUp](Docs/Setup.md).  I modified the procedure described in Drupal's Quick Start guide for my needs.  I will be using the Quick Start commands to "create" or "fill in" the base code for this repository.
+The procedure that I followed for creating this project and repository can be found in: [SetUp](Docs/Setup.md).  I modified the procedure described in Drupal's Quick Start guide for my needs.  I used the Quick Start commands to "create" or "fill in" the base code for this repository.
 
 #### The Drupal installation overwrote my original README.md file, and is included following this.
 
