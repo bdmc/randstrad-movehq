@@ -91,12 +91,25 @@ code base.
 
 
 The next step was to create a custom module,
-`randstrad_movehq_module` to perform the tasks related to
+`randstrad_movehq_module`, to perform the tasks related to
 the new Books table.
 
+The code for this module is placed in files under
+ `modules/custom/randstad_movehq_module` as specified in Drupal 9.
+Two YAML files, `randstad_movehq_module.info.yml` and 
+`randstad_movehq_module.routing.yml` control metadata and path 
+information for the module.
+The file `randstad_movehq_module.install` contains the structural
+information for the new Books table, and is used during the 
+module installation process.
+
+Under the module directory, `modules/custom/randstad_movehq_module`,
+is a `src` directory with `Controller` and `Form` subdirectories,
+which contain the actual code for the module.
+
 Enabling and activating the new module is done by
-going to the
-web site.
+going to the web site.
+
 From the Admin Dashboard, click on the Extend tab,
 then search through the list of available modules to find
 this "Randstrad MoveHQ Module", check the associated
