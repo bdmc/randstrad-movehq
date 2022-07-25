@@ -1,0 +1,40 @@
+randstrad_movehq_module.book_page:
+  path: '/bookpage/page'
+  defaults:
+    _controller: '\Drupal\randstrad_movehq_module\Controller\RandstradMoveHQController::welcome'
+    _title: 'Welcome to My Books in Drupal 9'
+  requirements:
+    _permission: 'access content'
+
+randstrad_movehq_module.book_list:
+  path: '/books/list'
+  defaults:
+    _controller: '\Drupal\randstrad_movehq_module\Controller\RandstradMoveHQController::booklist'
+      _title: 'Book List'
+    requirements:
+      _permission: 'access content'
+
+randstrad_movehq_module.book_edit:
+  path: '/books/edit'
+  defaults:
+    _controller: '\Drupal\randstrad_movehq_module\Controller\RandstradMoveHQController::bookedit'
+      _title: 'Edit Book'
+    requirements:
+      _permission: 'access content'
+
+randstrad_movehq_module.book_add:
+  path: '/books/add'
+  defaults:
+    _controller: '\Drupal\randstrad_movehq_module\Controller\RandstradMoveHQController::bookadd'
+      _title: 'Add Book'
+    requirements:
+      _permission: 'access content'
+
+randstrad_movehq_module.book_del:
+  path: '/books/delete'
+  defaults:
+    _controller: '\Drupal\randstrad_movehq_module\Controller\RandstradMoveHQController::bookdel'
+      _title: 'Delete Book'
+    requirements:
+      _permission: 'access content'
+

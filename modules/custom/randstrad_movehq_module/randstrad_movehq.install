@@ -1,0 +1,45 @@
+<?php
+  use Drupal\Core\Database\Database;
+
+  /**
+   * Implements hook_schema().
+   */
+  function books_schema(){
+    $schema['books'] = array(
+      'description' => 'The table for storing the book information',
+      'fields' => array(
+        'id' => array(
+          'description' => 'Primary identifier for Book',
+          'type' => 'serial',
+          'not null' => TRUE,
+          'unsigned' => TRUE,
+        ),
+        'name' => array(
+          'description' => 'Book Name',
+          'type' => 'varchar',
+          'length' => 255,
+          'not null' => TRUE,
+          'default' => '',
+        ),
+        'author' => array(
+          'description' => 'Author Name.',
+          'type' => 'varchar',
+          'length' => 255,
+          'not null' => FALSE,
+          'default' => '',
+        ),
+        'shelved' => array(
+          'description' => 'Is the book on the shelf',
+          'type' => 'boolean',
+          'not null' => FALSE,
+        ),
+        'acquired' => array(
+          'description' => 'When was the book acquired',
+          'type' => 'date',
+          'not null' => FALSE,
+        ),
+      ),
+      'primary key' => array('id'),
+    );
+    return $schema;
+  }
