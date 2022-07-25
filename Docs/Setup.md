@@ -9,6 +9,8 @@ web site, using PHP's built-in web browser, rather than using
 an external server and Apache2, which would be used for
 production.
 
+*NOTE: Drupal seems to keep replacing the root README.md file with its own content.  For that reason, 
+I will place a copy of the original README.md [here](Docs/README.md).*
 
 #### The steps used to create this project from the initial Git repositiory are as follows:
 
